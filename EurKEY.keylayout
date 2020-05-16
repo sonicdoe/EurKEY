@@ -64,6 +64,18 @@
 			<key code="51" output="&#x0008;" />
 			<key code="53" output="&#x001B;" />
 			<key code="76" output="&#x0003;" />
+			<key code="96" output="&#x0010;" />
+			<key code="97" output="&#x0010;" />
+			<key code="98" output="&#x0010;" />
+			<key code="99" output="&#x0010;" />
+			<key code="100" output="&#x0010;" />
+			<key code="101" output="&#x0010;" />
+			<key code="103" output="&#x0010;" />
+			<key code="109" output="&#x0010;" />
+			<key code="111" output="&#x0010;" />
+			<key code="118" output="&#x0010;" />
+			<key code="120" output="&#x0010;" />
+			<key code="122" output="&#x0010;" />
 		</keyMap>
 	</keyMapSet>
 </keyboard>
