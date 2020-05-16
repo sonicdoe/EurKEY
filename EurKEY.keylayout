@@ -63,6 +63,7 @@
 			<key code="50" output="`" />
 			<key code="51" output="&#x0008;" />
 			<key code="53" output="&#x001B;" />
+			<key code="76" output="&#x0003;" />
 		</keyMap>
 	</keyMapSet>
 </keyboard>
