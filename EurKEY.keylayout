@@ -76,6 +76,10 @@
 			<key code="118" output="&#x0010;" />
 			<key code="120" output="&#x0010;" />
 			<key code="122" output="&#x0010;" />
+			<key code="123" output="&#x001C;" />
+			<key code="124" output="&#x001D;" />
+			<key code="125" output="&#x001F;" />
+			<key code="126" output="&#x001E;" />
 		</keyMap>
 	</keyMapSet>
 </keyboard>
