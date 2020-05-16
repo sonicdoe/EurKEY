@@ -17,7 +17,12 @@
 	</modifierMap>
 	<keyMapSet id="ANSI">
 		<keyMap index="0">
-			<key code="0" output="a" />
+			<key code="0">
+				<action>
+					<when state="none" output="a" />
+					<when state="`" output="à" />
+				</action>
+			</key>
 			<key code="1" output="s" />
 			<key code="2" output="d" />
 			<key code="3" output="f" />
@@ -30,7 +35,12 @@
 			<key code="11" output="b" />
 			<key code="12" output="q" />
 			<key code="13" output="w" />
-			<key code="14" output="e" />
+			<key code="14">
+				<action>
+					<when state="none" output="e" />
+					<when state="`" output="è" />
+				</action>
+			</key>
 			<key code="15" output="r" />
 			<key code="16" output="y" />
 			<key code="17" output="t" />
@@ -47,10 +57,25 @@
 			<key code="28" output="8" />
 			<key code="29" output="0" />
 			<key code="30" output="]" />
-			<key code="31" output="o" />
-			<key code="32" output="u" />
+			<key code="31">
+				<action>
+					<when state="none" output="o" />
+					<when state="`" output="ò" />
+				</action>
+			</key>
+			<key code="32">
+				<action>
+					<when state="none" output="u" />
+					<when state="`" output="ù" />
+				</action>
+			</key>
 			<key code="33" output="[" />
-			<key code="34" output="i" />
+			<key code="34">
+				<action>
+					<when state="none" output="i" />
+					<when state="`" output="ì" />
+				</action>
+			</key>
 			<key code="35" output="p" />
 			<key code="36" output="&#x000D;" />
 			<key code="37" output="l" />
@@ -109,7 +134,12 @@
 			<key code="126" output="&#x001E;" />
 		</keyMap>
 		<keyMap index="1" baseMapSet="ANSI" baseIndex="0">
-			<key code="0" output="A" />
+			<key code="0">
+				<action>
+					<when state="none" output="A" />
+					<when state="`" output="À" />
+				</action>
+			</key>
 			<key code="1" output="S" />
 			<key code="2" output="D" />
 			<key code="3" output="F" />
@@ -122,7 +152,12 @@
 			<key code="11" output="B" />
 			<key code="12" output="Q" />
 			<key code="13" output="W" />
-			<key code="14" output="E" />
+			<key code="14">
+				<action>
+					<when state="none" output="E" />
+					<when state="`" output="È" />
+				</action>
+			</key>
 			<key code="15" output="R" />
 			<key code="16" output="Y" />
 			<key code="17" output="T" />
@@ -139,10 +174,25 @@
 			<key code="28" output="*" />
 			<key code="29" output=")" />
 			<key code="30" output="}" />
-			<key code="31" output="O" />
-			<key code="32" output="U" />
+			<key code="31">
+				<action>
+					<when state="none" output="O" />
+					<when state="`" output="Ò" />
+				</action>
+			</key>
+			<key code="32">
+				<action>
+					<when state="none" output="U" />
+					<when state="`" output="Ù" />
+				</action>
+			</key>
 			<key code="33" output="{" />
-			<key code="34" output="I" />
+			<key code="34">
+				<action>
+					<when state="none" output="I" />
+					<when state="`" output="Ì" />
+				</action>
+			</key>
 			<key code="35" output="P" />
 			<key code="37" output="L" />
 			<key code="38" output="J" />
@@ -204,6 +254,14 @@
 			<key code="45" output="ñ" />
 			<key code="46" output="α" />
 			<key code="47" output="ó" />
+			<key code="50">
+				<action>
+					<when state="none" next="`" />
+				</action>
+			</key>
 		</keyMap>
 	</keyMapSet>
+	<terminators>
+		<when state="`" output="`" />
+	</terminators>
 </keyboard>
