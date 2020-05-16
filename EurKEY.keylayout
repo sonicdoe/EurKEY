@@ -73,8 +73,12 @@
 			<key code="103" output="&#x0010;" />
 			<key code="109" output="&#x0010;" />
 			<key code="111" output="&#x0010;" />
+			<key code="115" output="&#x0001;" />
+			<key code="116" output="&#x000B;" />
 			<key code="118" output="&#x0010;" />
+			<key code="119" output="&#x0004;" />
 			<key code="120" output="&#x0010;" />
+			<key code="121" output="&#x000C;" />
 			<key code="122" output="&#x0010;" />
 			<key code="123" output="&#x001C;" />
 			<key code="124" output="&#x001D;" />
