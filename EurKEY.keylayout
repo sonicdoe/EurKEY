@@ -23,9 +23,15 @@
 					<when state="`" output="à" />
 					<when state="^" output="â" />
 					<when state=" ̊" output="å" />
+					<when state="´" output="á" />
 				</action>
 			</key>
-			<key code="1" output="s" />
+			<key code="1">
+				<action>
+					<when state="none" output="s" />
+					<when state="´" output="ś" />
+				</action>
+			</key>
 			<key code="2" output="d" />
 			<key code="3" output="f" />
 			<key code="4" output="h" />
@@ -39,6 +45,7 @@
 				<action>
 					<when state="none" output="z" />
 					<when state=" ̊" output="ż" />
+					<when state="´" output="ź" />
 				</action>
 			</key>
 			<key code="7" output="x" />
@@ -46,10 +53,16 @@
 				<action>
 					<when state="none" output="c" />
 					<when state=" ̊" output="ċ" />
+					<when state="´" output="ć" />
 				</action>
 			</key>
 			<key code="9" output="v" />
-			<key code="11" output="b" />
+			<key code="11">
+				<action>
+					<when state="none" output="b" />
+					<when state="´" output="ɓ" />
+				</action>
+			</key>
 			<key code="12" output="q" />
 			<key code="13">
 				<action>
@@ -62,13 +75,20 @@
 					<when state="none" output="e" />
 					<when state="`" output="è" />
 					<when state="^" output="ê" />
+					<when state="´" output="é" />
 				</action>
 			</key>
-			<key code="15" output="r" />
+			<key code="15">
+				<action>
+					<when state="none" output="r" />
+					<when state="´" output="ŕ" />
+				</action>
+			</key>
 			<key code="16">
 				<action>
 					<when state="none" output="y" />
 					<when state="^" output="ŷ" />
+					<when state="´" output="ý" />
 				</action>
 			</key>
 			<key code="17" output="t" />
@@ -90,6 +110,7 @@
 					<when state="none" output="o" />
 					<when state="`" output="ò" />
 					<when state="^" output="ô" />
+					<when state="´" output="ó" />
 				</action>
 			</key>
 			<key code="32">
@@ -97,6 +118,7 @@
 					<when state="none" output="u" />
 					<when state="`" output="ù" />
 					<when state="^" output="û" />
+					<when state="´" output="ú" />
 				</action>
 			</key>
 			<key code="33" output="[" />
@@ -105,11 +127,17 @@
 					<when state="none" output="i" />
 					<when state="`" output="ì" />
 					<when state="^" output="î" />
+					<when state="´" output="í" />
 				</action>
 			</key>
 			<key code="35" output="p" />
 			<key code="36" output="&#x000D;" />
-			<key code="37" output="l" />
+			<key code="37">
+				<action>
+					<when state="none" output="l" />
+					<when state="´" output="ł" />
+				</action>
+			</key>
 			<key code="38" output="j" />
 			<key code="39" output="&#x0027;" />
 			<key code="40" output="k" />
@@ -117,7 +145,12 @@
 			<key code="42" output="\" />
 			<key code="43" output="," />
 			<key code="44" output="/" />
-			<key code="45" output="n" />
+			<key code="45">
+				<action>
+					<when state="none" output="n" />
+					<when state="´" output="ń" />
+				</action>
+			</key>
 			<key code="46" output="m" />
 			<key code="47" output="." />
 			<key code="48" output="&#x0009;" />
@@ -171,9 +204,15 @@
 					<when state="`" output="À" />
 					<when state="^" output="Â" />
 					<when state=" ̊" output="Å" />
+					<when state="´" output="Á" />
 				</action>
 			</key>
-			<key code="1" output="S" />
+			<key code="1">
+				<action>
+					<when state="none" output="S" />
+					<when state="´" output="Ś" />
+				</action>
+			</key>
 			<key code="2" output="D" />
 			<key code="3" output="F" />
 			<key code="4" output="H" />
@@ -187,6 +226,7 @@
 				<action>
 					<when state="none" output="Z" />
 					<when state=" ̊" output="Ż" />
+					<when state="´" output="Ź" />
 				</action>
 			</key>
 			<key code="7" output="X" />
@@ -194,10 +234,16 @@
 				<action>
 					<when state="none" output="C" />
 					<when state=" ̊" output="Ċ" />
+					<when state="´" output="Ć" />
 				</action>
 			</key>
 			<key code="9" output="V" />
-			<key code="11" output="B" />
+			<key code="11">
+				<action>
+					<when state="none" output="B" />
+					<when state="´" output="Ɓ" />
+				</action>
+			</key>
 			<key code="12" output="Q" />
 			<key code="13">
 				<action>
@@ -210,13 +256,20 @@
 					<when state="none" output="E" />
 					<when state="`" output="È" />
 					<when state="^" output="Ê" />
+					<when state="´" output="É" />
 				</action>
 			</key>
-			<key code="15" output="R" />
+			<key code="15">
+				<action>
+					<when state="none" output="R" />
+					<when state="´" output="Ŕ" />
+				</action>
+			</key>
 			<key code="16">
 				<action>
 					<when state="none" output="Y" />
 					<when state="^" output="Ŷ" />
+					<when state="´" output="Ý" />
 				</action>
 			</key>
 			<key code="17" output="T" />
@@ -238,6 +291,7 @@
 					<when state="none" output="O" />
 					<when state="`" output="Ò" />
 					<when state="^" output="Ô" />
+					<when state="´" output="Ó" />
 				</action>
 			</key>
 			<key code="32">
@@ -245,6 +299,7 @@
 					<when state="none" output="U" />
 					<when state="`" output="Ù" />
 					<when state="^" output="Û" />
+					<when state="´" output="Ú" />
 				</action>
 			</key>
 			<key code="33" output="{" />
@@ -253,10 +308,16 @@
 					<when state="none" output="I" />
 					<when state="`" output="Ì" />
 					<when state="^" output="Î" />
+					<when state="´" output="Í" />
 				</action>
 			</key>
 			<key code="35" output="P" />
-			<key code="37" output="L" />
+			<key code="37">
+				<action>
+					<when state="none" output="L" />
+					<when state="´" output="Ł" />
+				</action>
+			</key>
 			<key code="38" output="J" />
 			<key code="39" output="&#x0022;" />
 			<key code="40" output="K" />
@@ -264,7 +325,12 @@
 			<key code="42" output="|" />
 			<key code="43" output="&#x003C;" />
 			<key code="44" output="?" />
-			<key code="45" output="N" />
+			<key code="45">
+				<action>
+					<when state="none" output="N" />
+					<when state="´" output="Ń" />
+				</action>
+			</key>
 			<key code="46" output="M" />
 			<key code="47" output="&#x003E;" />
 			<key code="50" output="~" />
@@ -315,7 +381,11 @@
 			<key code="35" output="œ" />
 			<key code="37" output="ø" />
 			<key code="38" output="ú" />
-			<key code="39" output=" ́" />
+			<key code="39">
+				<action>
+					<when state="none" next="´" />
+				</action>
+			</key>
 			<key code="40" output="ĳ" />
 			<key code="41" output="°" />
 			<key code="42" output="¬" />
@@ -335,5 +405,6 @@
 		<when state="`" output="`" />
 		<when state="^" output="^" />
 		<when state=" ̊" output=" ̊" />
+		<when state="´" output="´" />
 	</terminators>
 </keyboard>
