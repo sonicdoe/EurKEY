@@ -28,6 +28,7 @@
 					<when state=" ̊" output="å" />
 					<when state="´" output="á" />
 					<when state="α" output="α" />
+					<when state="~" output="ã" />
 				</action>
 			</key>
 			<key code="1">
@@ -237,6 +238,7 @@
 					<when state="^" output="ô" />
 					<when state="´" output="ó" />
 					<when state="α" output="ο" />
+					<when state="~" output="õ" />
 				</action>
 			</key>
 			<key code="32">
@@ -316,6 +318,7 @@
 					<when state="´" output="ń" />
 					<when state="¬" output="↙" />
 					<when state="α" output="ν" />
+					<when state="~" output="ñ" />
 				</action>
 			</key>
 			<key code="46">
@@ -379,6 +382,7 @@
 					<when state=" ̊" output="Å" />
 					<when state="´" output="Á" />
 					<when state="α" output="Α" />
+					<when state="~" output="Ã" />
 				</action>
 			</key>
 			<key code="1">
@@ -574,6 +578,7 @@
 					<when state="^" output="Ô" />
 					<when state="´" output="Ó" />
 					<when state="α" output="Ο" />
+					<when state="~" output="Õ" />
 				</action>
 			</key>
 			<key code="32">
@@ -641,6 +646,7 @@
 					<when state="´" output="Ń" />
 					<when state="¬" output="⇙" />
 					<when state="α" output="Ν" />
+					<when state="~" output="Ñ" />
 				</action>
 			</key>
 			<key code="46">
@@ -778,7 +784,11 @@
 			<key code="45" output="Ñ" />
 			<key code="46" output="√" />
 			<key code="47" output="Ó" />
-			<key code="50" output="~" />
+			<key code="50">
+				<action>
+					<when state="none" next="~" />
+				</action>
+			</key>
 		</keyMap>
 	</keyMapSet>
 	<terminators>
@@ -788,5 +798,6 @@
 		<when state="´" output="´" />
 		<when state="¬" output="¬" />
 		<when state="α" output="α" />
+		<when state="~" output="~" />
 	</terminators>
 </keyboard>
