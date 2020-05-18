@@ -449,6 +449,7 @@
 			<key code="111" output="&#x0010;" />
 			<key code="115" output="&#x0001;" />
 			<key code="116" output="&#x000B;" />
+			<key code="117" output="&#x007F;" />
 			<key code="118" output="&#x0010;" />
 			<key code="119" output="&#x0004;" />
 			<key code="120" output="&#x0010;" />
