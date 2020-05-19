@@ -41,6 +41,7 @@
 					<when state="¬" output="§" />
 					<when state="α" output="σ" />
 					<when state="ˇ" output="š" />
+					<when state="√" output="∩" />
 				</action>
 			</key>
 			<key code="2">
@@ -49,12 +50,14 @@
 					<when state="α" output="δ" />
 					<when state="ˇ" output="ď" />
 					<when state="¯" output="đ" />
+					<when state="√" output="Δ" />
 				</action>
 			</key>
 			<key code="3">
 				<action>
 					<when state="none" output="f" />
 					<when state="α" output="φ" />
+					<when state="√" output="ƒ" />
 				</action>
 			</key>
 			<key code="4">
@@ -65,6 +68,7 @@
 					<when state="ˇ" output="ȟ" />
 					<when state="¯" output="ħ" />
 					<when state="¨" output="ḧ" />
+					<when state="√" output="⊄" />
 				</action>
 			</key>
 			<key code="5">
@@ -73,6 +77,7 @@
 					<when state=" ̊" output="ġ" />
 					<when state="α" output="γ" />
 					<when state="ˇ" output="ǧ" />
+					<when state="√" output="⊂" />
 				</action>
 			</key>
 			<key code="6">
@@ -82,6 +87,7 @@
 					<when state="´" output="ź" />
 					<when state="α" output="ζ" />
 					<when state="ˇ" output="ž" />
+					<when state="√" output="↯" />
 				</action>
 			</key>
 			<key code="7">
@@ -89,6 +95,7 @@
 					<when state="none" output="x" />
 					<when state="α" output="ξ" />
 					<when state="¨" output="ẍ" />
+					<when state="√" output="∡" />
 				</action>
 			</key>
 			<key code="8">
@@ -99,6 +106,7 @@
 					<when state="¬" output="©" />
 					<when state="α" output="χ" />
 					<when state="ˇ" output="č" />
+					<when state="√" output="∝" />
 				</action>
 			</key>
 			<key code="9">
@@ -113,6 +121,7 @@
 					<when state="´" output="ɓ" />
 					<when state="α" output="β" />
 					<when state="¯" output="ƀ" />
+					<when state="√" output="⊆" />
 				</action>
 			</key>
 			<key code="12">
@@ -148,6 +157,7 @@
 					<when state="¬" output="®" />
 					<when state="α" output="ρ" />
 					<when state="ˇ" output="ř" />
+					<when state="√" output="√" />
 				</action>
 			</key>
 			<key code="16">
@@ -191,6 +201,7 @@
 					<when state="¬" output="⅓" />
 					<when state="α" output="³" />
 					<when state="¯" output="—" />
+					<when state="√" output="∛" />
 				</action>
 			</key>
 			<key code="21">
@@ -198,6 +209,7 @@
 					<when state="none" output="4" />
 					<when state="¬" output="¼" />
 					<when state="α" output="⁴" />
+					<when state="√" output="∜" />
 				</action>
 			</key>
 			<key code="22">
@@ -219,12 +231,14 @@
 					<when state="none" output="=" />
 					<when state="¬" output="↔" />
 					<when state="α" output="⁼" />
+					<when state="√" output="≝" />
 				</action>
 			</key>
 			<key code="25">
 				<action>
 					<when state="none" output="9" />
 					<when state="α" output="⁹" />
+					<when state="√" output="∟" />
 				</action>
 			</key>
 			<key code="26">
@@ -237,12 +251,14 @@
 				<action>
 					<when state="none" output="-" />
 					<when state="α" output="⁻" />
+					<when state="√" output="±" />
 				</action>
 			</key>
 			<key code="28">
 				<action>
 					<when state="none" output="8" />
 					<when state="α" output="⁸" />
+					<when state="√" output="∠" />
 				</action>
 			</key>
 			<key code="29">
@@ -268,6 +284,7 @@
 					<when state="ˇ" output="ǒ" />
 					<when state="¯" output="ō" />
 					<when state="¨" output="ö" />
+					<when state="√" output="∘" />
 				</action>
 			</key>
 			<key code="32">
@@ -281,6 +298,7 @@
 					<when state="ˇ" output="ǔ" />
 					<when state="¯" output="ū" />
 					<when state="¨" output="ü" />
+					<when state="√" output="∪" />
 				</action>
 			</key>
 			<key code="33">
@@ -300,6 +318,7 @@
 					<when state="ˇ" output="ǐ" />
 					<when state="¯" output="ī" />
 					<when state="¨" output="ï" />
+					<when state="√" output="∞" />
 				</action>
 			</key>
 			<key code="35">
@@ -307,6 +326,7 @@
 					<when state="none" output="p" />
 					<when state="¬" output="℗" />
 					<when state="α" output="π" />
+					<when state="√" output="∂" />
 				</action>
 			</key>
 			<key code="36" output="&#x000D;" />
@@ -318,6 +338,7 @@
 					<when state="α" output="λ" />
 					<when state="ˇ" output="ľ" />
 					<when state="¯" output="ḻ" />
+					<when state="√" output="∥" />
 				</action>
 			</key>
 			<key code="38">
@@ -332,6 +353,7 @@
 				<action>
 					<when state="none" output="&#x0027;" />
 					<when state="α" output="₌" />
+					<when state="√" output="′" />
 				</action>
 			</key>
 			<key code="40">
@@ -340,12 +362,14 @@
 					<when state="¬" output="↑" />
 					<when state="α" output="κ" />
 					<when state="ˇ" output="ǩ" />
+					<when state="√" output="∋" />
 				</action>
 			</key>
 			<key code="41">
 				<action>
 					<when state="none" output=";" />
 					<when state="α" output="₋" />
+					<when state="√" output="∵" />
 				</action>
 			</key>
 			<key code="42" output="\" />
@@ -359,6 +383,7 @@
 					<when state="α" output="ν" />
 					<when state="~" output="ñ" />
 					<when state="ˇ" output="ň" />
+					<when state="√" output="ⁿ" />
 				</action>
 			</key>
 			<key code="46">
@@ -366,9 +391,15 @@
 					<when state="none" output="m" />
 					<when state="¬" output="↘" />
 					<when state="α" output="μ" />
+					<when state="√" output="∈" />
 				</action>
 			</key>
-			<key code="47" output="." />
+			<key code="47">
+				<action>
+					<when state="none" output="." />
+					<when state="√" output="⋅" />
+				</action>
+			</key>
 			<key code="48" output="&#x0009;" />
 			<key code="49" output=" " />
 			<key code="50" output="`" />
@@ -426,6 +457,7 @@
 					<when state="ˇ" output="Ǎ" />
 					<when state="¯" output="Ā" />
 					<when state="¨" output="Ä" />
+					<when state="√" output="∀" />
 				</action>
 			</key>
 			<key code="1">
@@ -434,6 +466,7 @@
 					<when state="´" output="Ś" />
 					<when state="α" output="Σ" />
 					<when state="ˇ" output="Š" />
+					<when state="√" output="∫" />
 				</action>
 			</key>
 			<key code="2">
@@ -442,12 +475,14 @@
 					<when state="α" output="Δ" />
 					<when state="ˇ" output="Ď" />
 					<when state="¯" output="Đ" />
+					<when state="√" output="∇" />
 				</action>
 			</key>
 			<key code="3">
 				<action>
 					<when state="none" output="F" />
 					<when state="α" output="Φ" />
+					<when state="√" output="∎" />
 				</action>
 			</key>
 			<key code="4">
@@ -458,6 +493,7 @@
 					<when state="ˇ" output="Ȟ" />
 					<when state="¯" output="Ħ" />
 					<when state="¨" output="Ḧ" />
+					<when state="√" output="⊅" />
 				</action>
 			</key>
 			<key code="5">
@@ -466,6 +502,7 @@
 					<when state=" ̊" output="Ġ" />
 					<when state="α" output="Γ" />
 					<when state="ˇ" output="Ǧ" />
+					<when state="√" output="⊃" />
 				</action>
 			</key>
 			<key code="6">
@@ -475,6 +512,7 @@
 					<when state="´" output="Ź" />
 					<when state="α" output="Ζ" />
 					<when state="ˇ" output="Ž" />
+					<when state="√" output="ℤ" />
 				</action>
 			</key>
 			<key code="7">
@@ -482,6 +520,7 @@
 					<when state="none" output="X" />
 					<when state="α" output="Ξ" />
 					<when state="¨" output="Ẍ" />
+					<when state="√" output="∄" />
 				</action>
 			</key>
 			<key code="8">
@@ -491,6 +530,7 @@
 					<when state="´" output="Ć" />
 					<when state="α" output="Χ" />
 					<when state="ˇ" output="Č" />
+					<when state="√" output="ℂ" />
 				</action>
 			</key>
 			<key code="9">
@@ -505,12 +545,14 @@
 					<when state="´" output="Ɓ" />
 					<when state="α" output="Β" />
 					<when state="¯" output="Ƀ" />
+					<when state="√" output="⊇" />
 				</action>
 			</key>
 			<key code="12">
 				<action>
 					<when state="none" output="Q" />
 					<when state="α" output="Ω" />
+					<when state="√" output="ℚ" />
 				</action>
 			</key>
 			<key code="13">
@@ -531,6 +573,7 @@
 					<when state="ˇ" output="Ě" />
 					<when state="¯" output="Ē" />
 					<when state="¨" output="Ë" />
+					<when state="√" output="∃" />
 				</action>
 			</key>
 			<key code="15">
@@ -539,6 +582,7 @@
 					<when state="´" output="Ŕ" />
 					<when state="α" output="Ρ" />
 					<when state="ˇ" output="Ř" />
+					<when state="√" output="ℝ" />
 				</action>
 			</key>
 			<key code="16">
@@ -564,6 +608,7 @@
 				<action>
 					<when state="none" output="!" />
 					<when state="α" output="₁" />
+					<when state="√" output="≠" />
 				</action>
 			</key>
 			<key code="19">
@@ -588,12 +633,14 @@
 				<action>
 					<when state="none" output="^" />
 					<when state="α" output="₆" />
+					<when state="√" output="℘" />
 				</action>
 			</key>
 			<key code="23">
 				<action>
 					<when state="none" output="%" />
 					<when state="α" output="₅" />
+					<when state="√" output="‰" />
 				</action>
 			</key>
 			<key code="24">
@@ -601,6 +648,7 @@
 					<when state="none" output="+" />
 					<when state="¬" output="⇔" />
 					<when state="α" output="⁺" />
+					<when state="√" output="⊕" />
 				</action>
 			</key>
 			<key code="25">
@@ -613,6 +661,7 @@
 				<action>
 					<when state="none" output="&#x0026;" />
 					<when state="α" output="₇" />
+					<when state="√" output="∧" />
 				</action>
 			</key>
 			<key code="27" output="_" />
@@ -620,6 +669,7 @@
 				<action>
 					<when state="none" output="*" />
 					<when state="α" output="₈" />
+					<when state="√" output="⊗" />
 				</action>
 			</key>
 			<key code="29">
@@ -645,6 +695,7 @@
 					<when state="ˇ" output="Ǒ" />
 					<when state="¯" output="Ō" />
 					<when state="¨" output="Ö" />
+					<when state="√" output="∅" />
 				</action>
 			</key>
 			<key code="32">
@@ -658,6 +709,7 @@
 					<when state="ˇ" output="Ǔ" />
 					<when state="¯" output="Ū" />
 					<when state="¨" output="Ü" />
+					<when state="√" output="∖" />
 				</action>
 			</key>
 			<key code="33">
@@ -683,6 +735,7 @@
 				<action>
 					<when state="none" output="P" />
 					<when state="α" output="Π" />
+					<when state="√" output="ℙ" />
 				</action>
 			</key>
 			<key code="37">
@@ -693,6 +746,7 @@
 					<when state="α" output="Λ" />
 					<when state="ˇ" output="Ľ" />
 					<when state="¯" output="Ḻ" />
+					<when state="√" output="∦" />
 				</action>
 			</key>
 			<key code="38">
@@ -710,11 +764,27 @@
 					<when state="¬" output="⇑" />
 					<when state="α" output="Κ" />
 					<when state="ˇ" output="Ǩ" />
+					<when state="√" output="∌" />
 				</action>
 			</key>
-			<key code="41" output=":" />
-			<key code="42" output="|" />
-			<key code="43" output="&#x003C;" />
+			<key code="41">
+				<action>
+					<when state="none" output=":" />
+					<when state="√" output="∴" />
+				</action>
+			</key>
+			<key code="42">
+				<action>
+					<when state="none" output="|" />
+					<when state="√" output="∨" />
+				</action>
+			</key>
+			<key code="43">
+				<action>
+					<when state="none" output="&#x003C;" />
+					<when state="√" output="≤" />
+				</action>
+			</key>
 			<key code="44" output="?" />
 			<key code="45">
 				<action>
@@ -724,6 +794,7 @@
 					<when state="α" output="Ν" />
 					<when state="~" output="Ñ" />
 					<when state="ˇ" output="Ň" />
+					<when state="√" output="ℕ" />
 				</action>
 			</key>
 			<key code="46">
@@ -731,10 +802,21 @@
 					<when state="none" output="M" />
 					<when state="¬" output="⇘" />
 					<when state="α" output="Μ" />
+					<when state="√" output="∉" />
 				</action>
 			</key>
-			<key code="47" output="&#x003E;" />
-			<key code="50" output="~" />
+			<key code="47">
+				<action>
+					<when state="none" output="&#x003E;" />
+					<when state="√" output="≥" />
+				</action>
+			</key>
+			<key code="50">
+				<action>
+					<when state="none" output="~" />
+					<when state="√" output="≈" />
+				</action>
+			</key>
 		</keyMap>
 		<keyMap index="2" baseMapSet="ANSI" baseIndex="0">
 			<key code="0" output="ä" />
@@ -765,7 +847,12 @@
 			</key>
 			<key code="23" output="€" />
 			<key code="24" output="×" />
-			<key code="25" output="“" />
+			<key code="25">
+				<action>
+					<when state="none" output="“" />
+					<when state="√" output="″" />
+				</action>
+			</key>
 			<key code="26">
 				<action>
 					<when state="none" next=" ̊" />
@@ -871,7 +958,11 @@
 			<key code="43" output="Ò" />
 			<key code="44" output="…" />
 			<key code="45" output="Ñ" />
-			<key code="46" output="√" />
+			<key code="46">
+				<action>
+					<when state="none" next="√" />
+				</action>
+			</key>
 			<key code="47" output="Ó" />
 			<key code="50">
 				<action>
@@ -891,5 +982,6 @@
 		<when state="ˇ" output="ˇ" />
 		<when state="¯" output="¯" />
 		<when state="¨" output="¨" />
+		<when state="√" output="√" />
 	</terminators>
 </keyboard>
