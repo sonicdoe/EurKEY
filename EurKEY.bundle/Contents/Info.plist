@@ -4,5 +4,10 @@
 <dict>
 	<key>CFBundleIdentifier</key>
 	<string>com.apple.keyboardlayout.eurkey</string>
+	<key>KLInfo_EurKEY</key>
+	<dict>
+		<key>TISIntendedLanguage</key>
+		<string>en</string>
+	</dict>
 </dict>
 </plist>
