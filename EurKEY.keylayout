@@ -9,13 +9,19 @@
 			<modifier keys="" />
 		</keyMapSelect>
 		<keyMapSelect mapIndex="1">
-			<modifier keys="anyShift" />
+			<modifier keys="anyShift caps?" />
 		</keyMapSelect>
 		<keyMapSelect mapIndex="2">
 			<modifier keys="anyOption" />
 		</keyMapSelect>
 		<keyMapSelect mapIndex="3">
-			<modifier keys="anyOption anyShift" />
+			<modifier keys="anyOption anyShift caps?" />
+		</keyMapSelect>
+		<keyMapSelect mapIndex="4">
+			<modifier keys="caps" />
+		</keyMapSelect>
+		<keyMapSelect mapIndex="5">
+			<modifier keys="anyOption caps" />
 		</keyMapSelect>
 	</modifierMap>
 	<keyMapSet id="ANSI">
@@ -984,6 +990,293 @@
 			</key>
 			<key code="47" output="Ó" />
 			<key code="50" action="isoKeyOptionShift" />
+		</keyMap>
+		<keyMap index="4" baseMapSet="ANSI" baseIndex="0">
+			<key code="0">
+				<action>
+					<when state="none" output="A" />
+					<when state="`" output="À" />
+					<when state="^" output="Â" />
+					<when state=" ̊" output="Å" />
+					<when state="´" output="Á" />
+					<when state="α" output="Α" />
+					<when state="~" output="Ã" />
+					<when state="ˇ" output="Ǎ" />
+					<when state="¯" output="Ā" />
+					<when state="¨" output="Ä" />
+				</action>
+			</key>
+			<key code="1">
+				<action>
+					<when state="none" output="S" />
+					<when state="´" output="Ś" />
+					<when state="¬" output="§" />
+					<when state="α" output="Σ" />
+					<when state="ˇ" output="Š" />
+					<when state="√" output="∩" />
+				</action>
+			</key>
+			<key code="2">
+				<action>
+					<when state="none" output="D" />
+					<when state="α" output="Δ" />
+					<when state="ˇ" output="Ď" />
+					<when state="¯" output="Đ" />
+					<when state="√" output="Δ" />
+				</action>
+			</key>
+			<key code="3">
+				<action>
+					<when state="none" output="F" />
+					<when state="α" output="Φ" />
+					<when state="√" output="ƒ" />
+				</action>
+			</key>
+			<key code="4">
+				<action>
+					<when state="none" output="H" />
+					<when state="¬" output="←" />
+					<when state="α" output="Θ" />
+					<when state="ˇ" output="Ȟ" />
+					<when state="¯" output="Ħ" />
+					<when state="¨" output="Ḧ" />
+					<when state="√" output="⊄" />
+				</action>
+			</key>
+			<key code="5">
+				<action>
+					<when state="none" output="G" />
+					<when state=" ̊" output="Ġ" />
+					<when state="α" output="Γ" />
+					<when state="ˇ" output="Ǧ" />
+					<when state="√" output="⊂" />
+				</action>
+			</key>
+			<key code="6">
+				<action>
+					<when state="none" output="Z" />
+					<when state=" ̊" output="Ż" />
+					<when state="´" output="Ź" />
+					<when state="α" output="Ζ" />
+					<when state="ˇ" output="Ž" />
+					<when state="√" output="↯" />
+				</action>
+			</key>
+			<key code="7">
+				<action>
+					<when state="none" output="X" />
+					<when state="α" output="Ξ" />
+					<when state="¨" output="Ẍ" />
+					<when state="√" output="∡" />
+				</action>
+			</key>
+			<key code="8">
+				<action>
+					<when state="none" output="C" />
+					<when state=" ̊" output="Ċ" />
+					<when state="´" output="Ć" />
+					<when state="¬" output="©" />
+					<when state="α" output="Χ" />
+					<when state="ˇ" output="Č" />
+					<when state="√" output="∝" />
+				</action>
+			</key>
+			<key code="9">
+				<action>
+					<when state="none" output="V" />
+					<when state="α" output="Β" />
+				</action>
+			</key>
+			<key code="11">
+				<action>
+					<when state="none" output="B" />
+					<when state="´" output="Ɓ" />
+					<when state="α" output="Β" />
+					<when state="¯" output="Ƀ" />
+					<when state="√" output="⊆" />
+				</action>
+			</key>
+			<key code="12">
+				<action>
+					<when state="none" output="Q" />
+					<when state="α" output="Ω" />
+				</action>
+			</key>
+			<key code="13">
+				<action>
+					<when state="none" output="W" />
+					<when state="^" output="Ŵ" />
+					<when state="α" output="Ψ" />
+					<when state="¨" output="Ẅ" />
+				</action>
+			</key>
+			<key code="14">
+				<action>
+					<when state="none" output="E" />
+					<when state="`" output="È" />
+					<when state="^" output="Ê" />
+					<when state="´" output="É" />
+					<when state="α" output="Ε" />
+					<when state="ˇ" output="Ě" />
+					<when state="¯" output="Ē" />
+					<when state="¨" output="Ë" />
+				</action>
+			</key>
+			<key code="15">
+				<action>
+					<when state="none" output="R" />
+					<when state="´" output="Ŕ" />
+					<when state="¬" output="®" />
+					<when state="α" output="Ρ" />
+					<when state="ˇ" output="Ř" />
+					<when state="√" output="√" />
+				</action>
+			</key>
+			<key code="16">
+				<action>
+					<when state="none" output="Y" />
+					<when state="^" output="Ŷ" />
+					<when state="´" output="Ý" />
+					<when state="α" output="Υ" />
+					<when state="¨" output="Ÿ" />
+				</action>
+			</key>
+			<key code="17">
+				<action>
+					<when state="none" output="T" />
+					<when state="¬" output="™" />
+					<when state="α" output="Τ" />
+					<when state="ˇ" output="Ť" />
+					<when state="¯" output="Ŧ" />
+					<when state="¨" output="T̈" />
+				</action>
+			</key>
+			<key code="31">
+				<action>
+					<when state="none" output="O" />
+					<when state="`" output="Ò" />
+					<when state="^" output="Ô" />
+					<when state="´" output="Ó" />
+					<when state="α" output="Ο" />
+					<when state="~" output="Õ" />
+					<when state="ˇ" output="Ǒ" />
+					<when state="¯" output="Ō" />
+					<when state="¨" output="Ö" />
+					<when state="√" output="∘" />
+				</action>
+			</key>
+			<key code="32">
+				<action>
+					<when state="none" output="U" />
+					<when state="`" output="Ù" />
+					<when state="^" output="Û" />
+					<when state="´" output="Ú" />
+					<when state="¬" output="↖" />
+					<when state="α" output="Ω" />
+					<when state="ˇ" output="Ǔ" />
+					<when state="¯" output="Ū" />
+					<when state="¨" output="Ü" />
+					<when state="√" output="∪" />
+				</action>
+			</key>
+			<key code="34">
+				<action>
+					<when state="none" output="I" />
+					<when state="`" output="Ì" />
+					<when state="^" output="Î" />
+					<when state="´" output="Í" />
+					<when state="¬" output="↗" />
+					<when state="α" output="Η" />
+					<when state="ˇ" output="Ǐ" />
+					<when state="¯" output="Ī" />
+					<when state="¨" output="Ï" />
+					<when state="√" output="∞" />
+				</action>
+			</key>
+			<key code="35">
+				<action>
+					<when state="none" output="P" />
+					<when state="¬" output="℗" />
+					<when state="α" output="Π" />
+					<when state="√" output="∂" />
+				</action>
+			</key>
+			<key code="37">
+				<action>
+					<when state="none" output="L" />
+					<when state="´" output="Ł" />
+					<when state="¬" output="→" />
+					<when state="α" output="Λ" />
+					<when state="ˇ" output="Ľ" />
+					<when state="¯" output="Ḻ" />
+					<when state="√" output="∥" />
+				</action>
+			</key>
+			<key code="38">
+				<action>
+					<when state="none" output="J" />
+					<when state="¬" output="↓" />
+					<when state="α" output="Ι" />
+					<when state="ˇ" output="J̌" />
+				</action>
+			</key>
+			<key code="40">
+				<action>
+					<when state="none" output="K" />
+					<when state="¬" output="↑" />
+					<when state="α" output="Κ" />
+					<when state="ˇ" output="Ǩ" />
+					<when state="√" output="∋" />
+				</action>
+			</key>
+			<key code="45">
+				<action>
+					<when state="none" output="N" />
+					<when state="´" output="Ń" />
+					<when state="¬" output="↙" />
+					<when state="α" output="Ν" />
+					<when state="~" output="Ñ" />
+					<when state="ˇ" output="Ň" />
+					<when state="√" output="ⁿ" />
+				</action>
+			</key>
+			<key code="46">
+				<action>
+					<when state="none" output="M" />
+					<when state="¬" output="↘" />
+					<when state="α" output="Μ" />
+					<when state="√" output="∈" />
+				</action>
+			</key>
+		</keyMap>
+		<keyMap index="5" baseMapSet="ANSI" baseIndex="2">
+			<key code="0" output="Ä" />
+			<key code="1" output="ẞ" />
+			<key code="2" output="Ð" />
+			<key code="3" output="È" />
+			<key code="4" output="Ù" />
+			<key code="5" output="É" />
+			<key code="6" output="À" />
+			<key code="7" output="Á" />
+			<key code="8" output="Ç" />
+			<key code="9" output="Ì" />
+			<key code="11" output="Í" />
+			<key code="12" output="Æ" />
+			<key code="13" output="Å" />
+			<key code="14" output="Ë" />
+			<key code="15" output="Ý" />
+			<key code="16" output="Ÿ" />
+			<key code="17" output="Þ" />
+			<key code="31" output="Ö" />
+			<key code="32" output="Ü" />
+			<key code="34" output="Ï" />
+			<key code="35" output="Œ" />
+			<key code="37" output="Ø" />
+			<key code="38" output="Ú" />
+			<key code="40" output="Ĳ" />
+			<key code="43" output="Ò" />
+			<key code="45" output="Ñ" />
+			<key code="47" output="Ó" />
 		</keyMap>
 	</keyMapSet>
 	<actions>
