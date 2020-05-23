@@ -401,7 +401,22 @@
 				</action>
 			</key>
 			<key code="48" output="&#x0009;" />
-			<key code="49" output=" " />
+			<key code="49">
+				<action>
+					<when state="none" output=" " />
+					<when state="`" output="`" />
+					<when state="^" output="^" />
+					<when state=" ̊" output=" ̊" />
+					<when state="´" output="´" />
+					<when state="¬" output="¬" />
+					<when state="α" output="α" />
+					<when state="~" output="~" />
+					<when state="ˇ" output="ˇ" />
+					<when state="¯" output="¯" />
+					<when state="¨" output="¨" />
+					<when state="√" output="√" />
+				</action>
+			</key>
 			<key code="50" output="`" />
 			<key code="51" output="&#x0008;" />
 			<key code="53" output="&#x001B;" />
