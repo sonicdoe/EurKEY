@@ -420,6 +420,7 @@
 			<key code="50" output="`" />
 			<key code="51" output="&#x0008;" />
 			<key code="53" output="&#x001B;" />
+			<key code="64" output="&#x0010;" />
 			<key code="65" output="." />
 			<key code="67" output="*" />
 			<key code="69" output="+" />
@@ -427,6 +428,8 @@
 			<key code="75" output="/" />
 			<key code="76" output="&#x0003;" />
 			<key code="78" output="-" />
+			<key code="79" output="&#x0010;" />
+			<key code="80" output="&#x0010;" />
 			<key code="81" output="=" />
 			<key code="82" output="0" />
 			<key code="83" output="1" />
@@ -436,6 +439,7 @@
 			<key code="87" output="5" />
 			<key code="88" output="6" />
 			<key code="89" output="7" />
+			<key code="90" output="&#x0010;" />
 			<key code="91" output="8" />
 			<key code="92" output="9" />
 			<key code="96" output="&#x0010;" />
@@ -445,8 +449,12 @@
 			<key code="100" output="&#x0010;" />
 			<key code="101" output="&#x0010;" />
 			<key code="103" output="&#x0010;" />
+			<key code="105" output="&#x0010;" />
+			<key code="106" output="&#x0010;" />
+			<key code="107" output="&#x0010;" />
 			<key code="109" output="&#x0010;" />
 			<key code="111" output="&#x0010;" />
+			<key code="113" output="&#x0010;" />
 			<key code="115" output="&#x0001;" />
 			<key code="116" output="&#x000B;" />
 			<key code="117" output="&#x007F;" />
