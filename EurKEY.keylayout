@@ -26,6 +26,9 @@
 		<keyMapSelect mapIndex="6">
 			<modifier keys="anyControl anyOption? caps?" />
 		</keyMapSelect>
+		<keyMapSelect mapIndex="7">
+			<modifier keys="anyControl anyShift anyOption? caps?" />
+		</keyMapSelect>
 	</modifierMap>
 	<keyMapSet id="ANSI">
 		<keyMap index="0">
@@ -1311,6 +1314,11 @@
 			<key code="42" output="&#x001C;" />
 			<key code="45" output="&#x000E;" />
 			<key code="46" output="&#x000D;" />
+		</keyMap>
+		<keyMap index="7" baseMapSet="ANSI" baseIndex="6">
+			<key code="19" output="&#x0000;" />
+			<key code="22" output="&#x001E;" />
+			<key code="27" output="&#x001F;" />
 		</keyMap>
 	</keyMapSet>
 	<actions>
