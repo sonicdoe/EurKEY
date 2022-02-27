@@ -128,7 +128,7 @@
 					<when state="α" output="β" />
 				</action>
 			</key>
-			<key code="10" action="isoKeyBasic" />
+			<key code="10" output="§" />
 			<key code="11">
 				<action>
 					<when state="none" output="b" />
@@ -431,7 +431,7 @@
 					<when state="√" output="√" />
 				</action>
 			</key>
-			<key code="50" action="isoKeyBasic" />
+			<key code="50" output="`" />
 			<key code="51" output="&#x0008;" />
 			<key code="53" output="&#x001B;" />
 			<key code="64" output="&#x0010;" />
@@ -577,7 +577,7 @@
 					<when state="α" output="Β" />
 				</action>
 			</key>
-			<key code="10" action="isoKeyShift" />
+			<key code="10" output="±" />
 			<key code="11">
 				<action>
 					<when state="none" output="B" />
@@ -850,7 +850,12 @@
 					<when state="√" output="≥" />
 				</action>
 			</key>
-			<key code="50" action="isoKeyShift" />
+			<key code="50">
+				<action>
+					<when state="none" output="~" />
+					<when state="√" output="≈" />
+				</action>
+			</key>
 		</keyMap>
 		<keyMap index="2" baseMapSet="ANSI" baseIndex="0">
 			<key code="0" output="ä" />
@@ -863,7 +868,6 @@
 			<key code="7" output="á" />
 			<key code="8" output="ç" />
 			<key code="9" output="ì" />
-			<key code="10" action="isoKeyOption" />
 			<key code="11" output="í" />
 			<key code="12" output="æ" />
 			<key code="13" output="å" />
@@ -930,7 +934,11 @@
 				</action>
 			</key>
 			<key code="47" output="ó" />
-			<key code="50" action="isoKeyOption" />
+			<key code="50">
+				<action>
+					<when state="none" next="`" />
+				</action>
+			</key>
 		</keyMap>
 		<keyMap index="3" baseMapSet="ANSI" baseIndex="0">
 			<key code="0" output="Ä" />
@@ -943,7 +951,6 @@
 			<key code="7" output="Á" />
 			<key code="8" output="Ç" />
 			<key code="9" output="Ì" />
-			<key code="10" action="isoKeyOptionShift" />
 			<key code="11" output="Í" />
 			<key code="12" output="Æ" />
 			<key code="13" output="Å" />
@@ -996,7 +1003,11 @@
 				</action>
 			</key>
 			<key code="47" output="Ó" />
-			<key code="50" action="isoKeyOptionShift" />
+			<key code="50">
+				<action>
+					<when state="none" next="~" />
+				</action>
+			</key>
 		</keyMap>
 		<keyMap index="4" baseMapSet="ANSI" baseIndex="0">
 			<key code="0">
@@ -1323,19 +1334,6 @@
 		</keyMap>
 	</keyMapSet>
 	<actions>
-		<action id="isoKeyBasic">
-			<when state="none" output="`" />
-		</action>
-		<action id="isoKeyShift">
-			<when state="none" output="~" />
-			<when state="√" output="≈" />
-		</action>
-		<action id="isoKeyOption">
-			<when state="none" next="`" />
-		</action>
-		<action id="isoKeyOptionShift">
-			<when state="none" next="~" />
-		</action>
 	</actions>
 	<terminators>
 		<when state="`" output="`" />
