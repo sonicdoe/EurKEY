@@ -797,7 +797,12 @@
 					<when state="ˇ" output="J̌" />
 				</action>
 			</key>
-			<key code="39" output="&#x0022;" />
+			<key code="39">
+				<action>
+					<when state="none" output="&#x0022;" />
+					<when state="α" output="₊" />
+				</action>
+			</key>
 			<key code="40">
 				<action>
 					<when state="none" output="K" />
@@ -895,12 +900,7 @@
 				</action>
 			</key>
 			<key code="27" output="✓" />
-			<key code="28">
-				<action>
-					<when state="none" output="„" />
-					<when state="α" output="₊" />
-				</action>
-			</key>
+			<key code="28" output="„" />
 			<key code="29" output="”" />
 			<key code="30" output="»" />
 			<key code="31" output="ö" />
