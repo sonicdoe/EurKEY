@@ -801,6 +801,7 @@
 				<action>
 					<when state="none" output="&#x0022;" />
 					<when state="α" output="₊" />
+					<when state="√" output="″" />
 				</action>
 			</key>
 			<key code="40">
@@ -888,12 +889,7 @@
 			</key>
 			<key code="23" output="€" />
 			<key code="24" output="×" />
-			<key code="25">
-				<action>
-					<when state="none" output="“" />
-					<when state="√" output="″" />
-				</action>
-			</key>
+			<key code="25" output="“" />
 			<key code="26">
 				<action>
 					<when state="none" next=" ̊" />
