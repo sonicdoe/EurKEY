@@ -108,7 +108,6 @@
 					<when state="none" output="x" />
 					<when state="α" output="ξ" />
 					<when state="¨" output="ẍ" />
-					<when state="√" output="∡" />
 				</action>
 			</key>
 			<key code="8">
@@ -259,6 +258,7 @@
 				<action>
 					<when state="none" output="7" />
 					<when state="α" output="⁷" />
+					<when state="√" output="∡" />
 				</action>
 			</key>
 			<key code="27">
@@ -1074,7 +1074,6 @@
 					<when state="none" output="X" />
 					<when state="α" output="Ξ" />
 					<when state="¨" output="Ẍ" />
-					<when state="√" output="∡" />
 				</action>
 			</key>
 			<key code="8">
