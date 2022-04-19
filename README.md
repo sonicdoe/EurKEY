@@ -23,6 +23,8 @@ Then, follow the [macOS User Guide](https://support.apple.com/guide/mac-help/typ
 
 > The European keyboard layout on Apple A1243
 
+To create a sample picture as a guide for any type of keyboard the [Keyboard layout editor](http://www.keyboard-layout-editor.com/) can be used. The picture shown above can be edited [here](http://www.keyboard-layout-editor.com/#/gists/3c35b7816e9ebd7550586e38bbd8ec9e).
+
 ## License
 
 This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
