@@ -16,6 +16,13 @@
 
 Then, follow the [macOS User Guide](https://support.apple.com/guide/mac-help/type-language-mac-input-sources-mchlp1406/10.15/mac/10.15) to add EurKEY as an input source and switch to it.
 
+## Keyboard layout editor
+
+![GitHub-Mark-Light](pictures/european_keyboard_layout_on_apple_a1243_light.png#gh-light-mode-only)
+![GitHub-Mark-Dark ](pictures/european_keyboard_layout_on_apple_a1243_dark.png#gh-dark-mode-only)
+
+> The European keyboard layout on Apple A1243
+
 ## License
 
 This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
