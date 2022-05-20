@@ -469,7 +469,7 @@
 			<key code="109" output="&#x0010;" />
 			<key code="111" output="&#x0010;" />
 			<key code="113" output="&#x0010;" />
-			<key code="114" output="&#x0005;"/>
+			<key code="114" output="&#x0005;" />
 			<key code="115" output="&#x0001;" />
 			<key code="116" output="&#x000B;" />
 			<key code="117" output="&#x007F;" />
@@ -1082,7 +1082,6 @@
 					<when state="none" output="X" />
 					<when state="α" output="Ξ" />
 					<when state="¨" output="Ẍ" />
-					<when state="√" output="∡" />
 				</action>
 			</key>
 			<key code="8">
